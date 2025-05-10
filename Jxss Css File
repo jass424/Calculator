@@ -1,0 +1,49 @@
+//Css File
+
+.calculator {
+  width: 300px;
+  margin: 50px auto;
+  border: 1px solid #131212;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.calculator input {
+  width: 100%;
+  height: 40px;
+  font-size: 24px;
+  text-align: right;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #161616;
+  border-radius: 5px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  height: 50px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+h1{
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 20px;
+  color: #fd0505;
+}
